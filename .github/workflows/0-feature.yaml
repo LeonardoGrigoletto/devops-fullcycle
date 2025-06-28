@@ -1,4 +1,4 @@
-name: Feature / Fix branch
+name: Feature Fix branch
 on:
   push:
     branches:

@@ -6,6 +6,6 @@ on:
       - 'fix**'
 
 jobs:
-  python-ci-example:
-    uses: ./.github/workflows/python-ci.yaml
+  python-ci:
+    uses: ./.github/workflows/python-ci.yml
     secrets: inherit

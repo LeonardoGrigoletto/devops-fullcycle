@@ -2,12 +2,12 @@ name: Feature Fix branch
 on:
   push:
     branches:
-      - 'feature/**'
-      - 'fix/**'
+      - 'feature**'
+      - 'fix**'
 
 jobs:
   python-ci:
     uses: ./.github/workflows/python-ci.yml
     secrets: inherit
 
-# version 5
+# version 7
